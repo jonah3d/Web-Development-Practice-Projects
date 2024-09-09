@@ -1,0 +1,98 @@
+.Header_Container{
+    background-color: #f2f2f2;
+
+}
+
+.Header_Container h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+
+.Profile_image{
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    margin:0 45%;
+}
+
+.Header_Container nav{
+    display:inline-block;
+    margin-left:43.5%;
+}
+
+.Header_Container nav a:link{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #104498;
+
+}
+.Header_Container nav a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.Header_Container nav a:visited{
+    color: #104498;
+}
+
+.Aboutme_Container{
+    background-color: #f2f2f2;
+    width: 98%;
+    margin-left:1%;
+    margin-right:1%;
+    font-family: sans-serif;
+}
+
+.Aboutme_Container p{
+    padding: 15px;
+}
+.Aboutme_Container h3{
+    padding: 15px;
+}
+.Work_Container{
+    background-color: #f2f2f2;
+    width: 98%;
+    margin-left:1%;
+    margin-right:1%;
+    font-family: sans-serif;
+}
+
+.Work_Container li{
+    list-style: none;
+    display: inline;
+    padding-inline: 20px;
+
+}
+.Work_Container h3{
+    padding: 15px;
+
+
+}
+
+#image1{
+    width: 500px;
+    height: auto;
+    margin-bottom: 25px;
+}
+#image2{
+    width: 500px;
+    height: auto;
+    margin-bottom: 25px;
+}
+#image3{
+    width: 500px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.Contact_Container{
+    background-color: #f2f2f2;
+    width: 98%;
+    margin-left:1%;
+    margin-right:1%;
+    text-align: center;
+    font-size: small;
+}
