@@ -64,15 +64,17 @@ footer {
     color: white;
     padding: 20px;
     font-family: sans-serif;
+
 }
 
 main {
     background-color: #f2f6f9;
+
 }
 
 .features {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
     justify-content: center;
 }
@@ -89,6 +91,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 15px;
+
 }
 
 .item h4 {
