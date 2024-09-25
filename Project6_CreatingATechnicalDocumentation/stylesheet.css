@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-rows: 90px 1fr;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+        "header header"
+        "aside section";
+    height: 100vh; /* Make the body span the full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+header {
+    background-color: #354149;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    grid-area: header;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c3e4f;
+    grid-area: aside;
+    height: calc(100vh - 90px); /* Make aside span the remaining height */
+}
+
+section {
+    grid-area: section;
+    height: calc(100vh - 90px); /* Make section span the remaining height */
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lawngreen;
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    color: #2c3e4f;
+    font-size: larger;
+}
+
+p {
+    color: #646464;
+}
