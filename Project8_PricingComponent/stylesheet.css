@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+    font-family: sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15rem;
+
+    max-width:68rem;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 5rem;
+    padding: 4rem 5rem;
+    border-radius: 3rem;
+}
+
+.build{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+
+
+}
+
+.price_container {
+    text-align: center;
+    background-color: rgba(248, 247, 246, 0.5);
+    border-radius: 50%;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+.price_container p{
+    text-align: center;
+    font-size: smaller;
+}
+
+.price{
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.perks {
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: #323232;
+    font-weight: normal;
+}
+
+
+.tier_basic{
+    color: #ac1414;
+    font-size: 2rem;
+}
+
+.price_basics{
+    color: #ac1414;
+}
+.price_adv{
+    color: green;
+}
+.tier_advanced{
+    color: green;
+    font-size: 2rem;
+}
+.price_prem{
+    color: dodgerblue;
+}
+
+.tier_premium{
+    color: dodgerblue;
+    font-size: 2rem;
+}
+.purchase {
+    transition: transform 0.3s ease; /* Smooth transition over 0.3 seconds */
+}
+
+
+.purchase:visited,
+.purchase:link
+{
+    text-decoration: none;
+
+    padding:0.5rem 1.8rem;
+    border-radius:2rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+.purchase:hover{
+    transform: scale(1.1);
+}
+.basic-purchase{
+    background-color: #ac1414;
+}
+.prem-purchase{
+    background-color: dodgerblue;
+}
+.adv-purchase{
+    background-color: green;
+}
+
+.priconbasics{
+    box-shadow: 0 0 20px rgb(193, 153, 144);
+}
+.priconadv{
+    box-shadow: 0 0 20px rgb(190, 216, 162);
+}
+.priconprem{
+    box-shadow: 0 0 20px rgb(162, 192, 216);
+}
+
+/* Hover Effect */
+.price_container:hover {
+
+    transform: translateY(-10px);
+
+}
