@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color:  aliceblue;
+}
+
+.container{
+    display: grid;
+    max-width: 40rem;
+    margin: 5rem auto;
+    
+
+    grid-template-rows: 1fr 0.3rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+ 
+
+    
+    background-color: white;
+}
+.check {
+    width: 1.5rem;
+    height: auto; 
+}
+.exc{
+    width: 1.6rem;
+    height: auto; 
+}
+.cancel{
+    width: 1rem; 
+    height: auto
+}
+.dang{
+    width: 1.5rem; 
+    height: auto
+}
+
+.message{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.status{
+    background-color: green;
+}
+.stat_deny{
+    background-color: yellow;
+}
+
+.stat_err{
+    background-color: red;
+}
