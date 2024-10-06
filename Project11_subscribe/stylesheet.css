@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(40, 40, 38);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    max-width: 50rem;
+    margin: 5rem auto;
+    align-items: center;
+
+    background-color: aliceblue;
+    padding: 5rem 2rem;
+    border-radius: 2rem;
+
+}
+
+.grad{
+    width: 350px;
+    height: auto;
+    border-radius: 1rem 0 0 1rem;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    gap: 1.2rem;
+}
+.info h3{
+    color: rgb(148, 135, 207);
+    font-size: 1.8rem;
+}
+
+.info input{
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 0.5rem;
+    border-width: 0.5px;
+
+}
+
+.info input:active{
+    border-width: 0px;
+}
+
+.info button{
+    padding: 0.5rem;
+    border-radius: 20px;
+    background-color: rgb(148, 135, 207);
+    color: white;
+    border-width: 0;
+    cursor: pointer;
+}
