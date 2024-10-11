@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* background-color: yellow;*/
+    padding: 15px;
+}
+
+.listi{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    
+}
+
+.listi a{
+    text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-weight: bolder;
+}
+
+.listi a:hover {
+    background: linear-gradient(90deg, rgba(161,65,245,1) 0%, rgba(255,0,233,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Logo{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.join_btn {
+      color: white;
+      text-decoration: none;
+      background-color: #666666;
+      padding: 10px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-size: 13px;
+      transition: transform 0.8s;
+}
+
+.join_btn:hover {
+transform: scale(1.05);
+}
+.core{
+    position: relative;
+    height: 85vh;
+    border-radius: 15px;
+    background-image:linear-gradient(to top right,rgba(0, 0, 0, 1),rgba(255, 255, 255, 0.1)) ,url('bgimage.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading_tit{
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-size: 45px;
+    
+    top: 250px;
+    left: 25px;
+}
+
+.upper{
+    display: block;
+}
+
+.downer{
+    display: block;
+}
+
+.downpara{
+    position: absolute;
+    color: white;
+    font-family: Arno Pro Light Display;
+    color: rgb(230, 230, 230);
+    top: 370px;
+    left: 25px;
+    
+}
+
+.ourde{
+      display: block;
+}
+
+.prod{
+      display: block;
+}
+
+.buto{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+   background: linear-gradient(90deg, rgba(161,65,245,1) 0%, rgba(255,0,233,1) 100%);
+    border-radius: 10px;
+    
+     top: 480px;
+    left: 25px;
+    transition: transform 0.5s;
+}
+
+.buto::after {
+  content: '→'; /* Unicode for right arrow */
+  margin-left: 10px; /* Adjust spacing as needed */
+}
+
+.buto:hover{
+    transform: scale(1.02);
+}
